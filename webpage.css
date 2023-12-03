@@ -8,6 +8,7 @@ body {
   width: 100vw;
   display: flex;
   justify-content: space-around;
+  align-content: center;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #333;
   margin-bottom: 50px;
@@ -294,13 +295,15 @@ body {
 
 .section-4 {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  justify-items: center;
   align-items: center;
   background-color: #d0faf4;
   width: 100vw;
   margin-top: 10px;
-  padding: 250px;
+  padding: 150px;
   height: 300px;
+  gap: 50px;
 }
 
 #flag {
@@ -399,6 +402,7 @@ body {
 #section-4header {
   margin-left: 100px;
   margin-top: 50px;
+  margin-left: -100px;
 }
 
 #section-4header h2 {
@@ -454,6 +458,13 @@ body {
   grid-template-rows: 3;
   grid-column-gap: 20px;
   grid-row-gap: 20px;
+}
+
+.section-6 p {
+  font-size: 16px;
+  line-height: 23px;
+  font-family: "Roboto", Arial, sans-serif;
+  color: #747474;
 }
 
 #section-6-war {
@@ -512,13 +523,6 @@ body {
   grid-row-end: 3;
 }
 
-#section-6-rio {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 2;
-  grid-row-end: 3;
-}
-
 #city {
   display: flex;
   justify-content: space-around;
@@ -531,15 +535,65 @@ body {
 button {
   font-family: "Roboto", Arial, sans-serif;
   font-size: 10px;
-  height: 30px;
+  height: 40px;
   border-radius: 5px;
   color: white;
   background-color: #3d83df;
+  border: #3d83df;
 }
 
 .section-7 {
   display: flex;
+  justify-content: center;
   justify-items: center;
   align-content: center;
   text-align: center;
+  margin-top: 50px;
+}
+
+.section-7 h1 {
+  font-family: "Work Sans", Arial, sans-serif;
+  color: #333333;
+  font-size: 30px;
+  line-height: 33px;
+}
+
+.futa {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  justify-items: center;
+  text-align: center;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 12px;
+  line-height: 17px;
+  color: #ababab;
+}
+
+.futa p {
+  display: flex;
+  justify-items: center;
+  text-align: center;
+}
+
+.futa a {
+  text-decoration: none;
+  color: #3d83df;
+}
+
+.futa a:hover {
+  text-decoration: underline;
+  color: #3d83df;
+}
+
+.futa2 {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  justify-items: center;
+  text-align: center;
+  color: #ababab;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 12px;
+  line-height: 17px;
 }
